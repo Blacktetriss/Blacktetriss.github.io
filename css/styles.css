@@ -58,7 +58,7 @@ html {
 }
 
 .arrow:hover {
-  filter: invert(35%) sepia(86%) saturate(999%) hue-rotate(181deg) brightness(82%) contrast(95%);
+  filter: brightness(0) saturate(100%) invert(34%) sepia(39%) saturate(3797%) hue-rotate(359deg) brightness(99%) contrast(104%);
 }
 
 .arrownone:hover {
@@ -80,13 +80,16 @@ html {
   position: fixed;
   top: 20px;
   right: 20px;
+  width: 2em;
   display: inline-block;
+  z-index: 1;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: transparent;
+  
   /* min-width: 600px; */
   overflow: auto;
 }
@@ -108,6 +111,19 @@ html {
 
 .text-indent {
   text-indent: 3%;
+}
+
+.home {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 2em;
+  z-index: 1;
+  display: inline-block;
+}
+
+.svg_shadow{
+  filter: drop-shadow(1px 1px 1px #3b3b3b00);
 }
 
 /* ================================= */

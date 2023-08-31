@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="35px" height="25px" viewBox="0 0 35 25" style="enable-background:new 0 0 35 25;" xml:space="preserve">
-<style type="text/css">
-<![CDATA[
-	.st0{fill:#FF4900;}
-]]>
-</style>
-<path class="st0" d="M34.883,0.51C34.708,0.195,34.366,0,33.994,0H1.008C0.634,0,0.29,0.197,0.116,0.513
-	c-0.175,0.317-0.15,0.699,0.061,0.993l16.619,23.076C16.984,24.844,17.295,25,17.627,25c0.001,0,0.002,0,0.004,0
-	c0.332-0.001,0.643-0.16,0.829-0.423L34.827,1.5C35.036,1.205,35.058,0.824,34.883,0.51z M17.621,22.332L2.923,1.922h29.173
-	L17.621,22.332z"/>
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="370px" height="370px" viewBox="0 0 370 370" enable-background="new 0 0 370 370" xml:space="preserve">
+<path fill="#B4B3B3" d="M368.762,67.414c-1.834-3.307-5.422-5.352-9.328-5.352H13.158c-3.926,0-7.534,2.07-9.359,5.387
+	c-1.84,3.326-1.579,7.335,0.635,10.422l174.46,242.241c1.974,2.747,5.239,4.388,8.725,4.388c0.009,0,0.02,0,0.04,0
+	c3.487-0.011,6.747-1.681,8.704-4.438L368.178,77.809C370.371,74.713,370.607,70.715,368.762,67.414z M187.558,296.493
+	L33.262,82.237h306.242L187.558,296.493z"/>
 </svg>
