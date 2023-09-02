@@ -40,7 +40,8 @@ body {
 
 
 html {
-  /* font-family: 'Raleway', sans-serif; */
+  color: rgb(45, 45, 45);
+  font-family: 'Lexend Deca', sans-serif;
   scroll-snap-type: mandatory;
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
