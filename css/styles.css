@@ -12,18 +12,14 @@
 } */
 
 
-@font-face{
-	font-family:'Avenir Next Variable';
-  src: local("Avenir Next Variable");
-	src: url('./assets/fonts/AvenirNext_Variable.ttf');
-  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2729/AvenirNext_Variable.ttf') format('truetype');
-  
-  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;700&display=swap');
+
 
 body {
   font-family: 
   /* "Louize", */
-  'Avenir Next Variable',
+  'Lexend Deca', sans-serif,
    'Raleway', sans-serif,
     -apple-system,
     BlinkMacSystemFont,
@@ -33,7 +29,7 @@ body {
     Helvetica,
     sans-serif;
   font-variation-settings:
-    'wght' 400,
+    'wght' 300,
     'wdth' 125;
   font-size: 24px;
   color: rgb(45, 45, 45);
@@ -52,7 +48,7 @@ html {
 
 .xl_font {
   font-variation-settings:
-    'wght' 800,
+    'wght' 700,
     'wdth' 125;
   font-size: 2rem;
   color: rgb(45, 45, 45);
@@ -61,9 +57,9 @@ html {
 
 .xs_font {
   font-variation-settings:
-    'wght' 400,
+    'wght' 200,
     'wdth' 125;
-  font-size: 16px;
+  font-size: 14px;
   color: rgb(45, 45, 45);
   line-height: 1,3;
 }
