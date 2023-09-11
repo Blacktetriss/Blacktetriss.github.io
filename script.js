@@ -1,32 +1,5 @@
-$('.tile')
-
-	.on('mouseover', function () {
-		$(this).children('.photo').css({
-			'transform': 'scale(' + $(this).attr('data-scale') + ')'
-		});
-	})
-	.on('mouseout', function () {
-		$(this).children('.photo').css({
-			'transform': 'scale(1)'
-		});
-	})
-	.on('mousemove', function (e) {
-		$(this).children('.photo').css({
-			'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 + '%'
-		});
-	})
-
-	.each(function () {
-		$(this)
-			.append('<div class="photo"></div>')
-			.children('.photo').css({
-				'background-image': 'url(' + $(this).attr('data-image') + ')'
-			});
-	})
-
-
 function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("menuDropdown").classList.toggle("show");
   }
   
   window.onclick = function(event) {

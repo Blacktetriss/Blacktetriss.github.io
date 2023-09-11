@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>sonatine69</title>
+    <title>dropdown</title>
 
 
     <link rel="stylesheet" href="/css/tachyons.css" />
@@ -14,56 +14,84 @@
 
 
     <style>
-        .dropbtn {
-  color: #333333;
-  padding: 10px;
-  font-size: 1.5em;
+      
+.dropbtn {
+  background-color: transparent;
+  font-size: 2em;
   border: none;
   cursor: pointer;
+  align-items: center;
+  padding: 0;
 }
 
 .dropdown {
-  position: relative;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 2em;
   display: inline-block;
-  min-width: 320px;
-}
-
-
-.dropdown-content {
-  position: absolute;
-  text-align: end;
-  display: none;
   z-index: 1;
 }
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  overflow: auto;
+}
+
 .dropdown-content a {
-  color: #333333;
-  padding: 10px 10px;
   text-decoration: none;
   display: block;
+  align-items: center;
 }
 
 .show {
   display: block;
 }
+/* ============================== */
+
     </style>
     <body>
 
-        <div class="fixed">
-            <div class="dropdown">
-              <button onclick="myFunction()" 
-              class="dropbtn bg-light-gray">☰</button>
-              <div id="myDropdown" class="dropdown-content bg-silver">
-                <a href="#">Home, sweet home</a>
-                <span class="gray">gallery works:</span>
-                <a href="#">CAT5 Ethernet Cable</a>
-                <a href="#">CCTV cam</a>
-                <a href="#">ÆROs9-6 Mining Drone</a>
-                <a href="#">Keychron K2 keyboard</a>
-                <a href="#">Hello. I'm Mark</a>
-              </div>
-            </div>
-          </div>
+      <div class="dropdown" style="width: 2em; z-index: 1;">
+        <button onclick="myFunction()" class="dropbtn arrow svg_shadow">
+          <img src="/assets/svg/social.svg" alt="social media" title="social media">
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+    
+          <a class="arrow svg_shadow" href="mailto:sonachine69@gmail.com" title="email" target="_blank">
+            <img src="/assets/svg/icons8-gmail.svg" alt="gmail"></a>
+    
+          <a class="arrow svg_shadow" href="https://www.behance.net/sonachine69" title="behance" target="_blank">
+            <img src="/assets/svg/behance.svg" alt="behance"></a>
+    
+          <a class="arrow svg_shadow" href="https://twitter.com/sonachine69" title="twitter" target="_blank">
+            <img src="/assets/svg/twitter.svg" alt="twitter" style="width: 2em; height: auto;"></a>
+    
+          <a class="arrow svg_shadow" href="https://www.instagram.com/sonatine69/" title="instagram" target="_blank">
+            <img src="/assets/svg/instagram (2).svg" alt="instagram"></a>
+    
+          <a class="arrow svg_shadow" href="https://www.youtube.com/channel/UCw2NN0aF5SxJq6QUaod9sxQ" title="youtube"
+            target="_blank">
+            <img src="/assets/svg/youtube.svg" alt="youtube" style="width: 2em; height: auto;"></a>
+    
+          <a class="arrow svg_shadow" href="https://www.artstation.com/sonachine69" title="artstation"
+            target="_blank">
+            <img src="/assets/svg/artstation.svg" alt="artstation"></a>
+    
+          <a class="arrow svg_shadow" href="https://www.reddit.com/user/rlcewithmeat/" title="reddit" target="_blank">
+            <img src="/assets/svg/reddit.svg" alt="reddit"></a>
+    
+          <a class="arrow svg_shadow" href="https://www.patreon.com/Sonachine69" title="patreon" target="_blank">
+            <img src="/assets/svg/patreon.svg" alt="patreon"></a>
+    
+        </div>
+      </div>
+
+      <!-- ============================= -->
+
+
 
 
           <script>

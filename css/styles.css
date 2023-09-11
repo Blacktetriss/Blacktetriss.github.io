@@ -38,7 +38,6 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%230f0f0f' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
-
 html {
   color: #333333;
   font-family: 'Lexend Deca', sans-serif;
@@ -69,8 +68,6 @@ symbol {
   color: #333333;
 }
 
-
-
 .arrow:hover {
   filter: brightness(0) saturate(100%) invert(34%) sepia(39%) saturate(3797%) hue-rotate(359deg) brightness(99%) contrast(104%);
 }
@@ -87,38 +84,39 @@ symbol {
   width: 1em;
 }
 
-/* ===================== */
+/* ======dropdown=============== */
 
 .dropbtn {
+  color: #333333;
   background-color: transparent;
-  font-size: 2em;
+  font-size: 1.5em;
   border: none;
   cursor: pointer;
-  align-items: center;
-  padding: 0;
 }
 
 .dropdown {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  width: 2em;
+  position: relative;
   display: inline-block;
-  z-index: 1;
+
 }
 
 .dropdown-content {
+  right: 0;
   display: none;
   position: absolute;
-  background-color: transparent;
-  overflow: auto;
+  min-width: 300px;
+  z-index: 1;
 }
 
 .dropdown-content a {
+  color: #333333;
+  padding: 20px 10px;
   text-decoration: none;
   display: block;
-  align-items: center;
+  overflow-y: auto;
 }
+
+.dropdown-content a:hover {background-color: #b4b3b3;}
 
 .show {
   display: block;
@@ -171,38 +169,3 @@ svg {
 .grayscale:hover {
   filter: grayscale(0);
 }
-
-/* =======menu========== */
-
-/* .dropbtn {
-  color: #333333;
-  padding: 10px;
-  font-size: 1.5em;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-  min-width: 320px;
-}
-
-
-.dropdown-content {
-  position: absolute;
-  text-align: end;
-  display: none;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: #333333;
-  padding: 10px 10px;
-  text-decoration: none;
-  display: block;
-}
-
-.show {
-  display: block;
-} */
