@@ -85,14 +85,11 @@ symbol {
 }
 
 /* ======dropdown=============== */
-
-/* .menu {
-position: fixed;
-top: 20px;
-right: 20px;
-z-index: 1;
-
-}; */
+.menu {
+  top: 25px;
+  right: 10px;
+  z-index: 1;
+}
 
 .dropbtn {
   color: #333333;
