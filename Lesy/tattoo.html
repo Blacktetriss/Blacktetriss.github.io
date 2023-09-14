@@ -19,13 +19,13 @@
 
 <body>
 
-	<div class="controls fixed right-0 bottom-0">
+	<!-- <div class="controls fixed right-0 bottom-0">
 		<button class="play">Play</button>
 		<button class="pause">Pause</button>
 		<button class="restart">Restart</button>
 		<p>Seek: <input class="seek" step="1" type="range" min="0" max="100" value="0"> <span class="seek-value"></span>
 		</p>
-	</div>
+	</div> -->
 	<div class="box-svg">
 		<div class="container container--ph">
 			<svg class="svg--responsive" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -1917,8 +1917,8 @@
 
 	<script>
 		var tl = anime.timeline({
-			duration: 3000,
-			autoplay: false
+			duration: 2000,
+			autoplay: true
 		});
 
 		tl
@@ -1927,7 +1927,7 @@
 				opacity: '1',
 				strokeDashoffset: [anime.setDashoffset, 0],
 				easing: 'easeInOutSine',
-				delay: function (el, i) { return i * 50 },
+				delay: function (el, i) { return i * 20 },
 				direction: 'normal',
 			},)
 
@@ -1985,7 +1985,7 @@
                     value: [3600, 0],
                     delay: anime.stagger(50, { start: 0 }),
                     // duration: 1500,
-                    easing: 'cubicBezier(0.68, -0.6, 0.32, 1.6)',
+                    easing: 'cubicBezier(0.83, 0, 0.17, 1)',
                     direction: 'normal',
                 },
 			},)
@@ -1997,17 +1997,17 @@
                     value: [-3600, 0],
                     delay: anime.stagger(150, { start: 0 }),
                     // duration: 1500,
-                    easing: 'cubicBezier(0.68, -0.6, 0.32, 1.6)',
+                    easing: 'cubicBezier(0.83, 0, 0.17, 1)',
                     direction: 'normal',
                 },
-			},'-=1000')
+			},'-=2300')
 
 			.add({
 				targets: ['.goldstroke', '.bigleaves', 'smallleaves'],
 				opacity: '1',
 				strokeDashoffset: [anime.setDashoffset, 0],
 				easing: 'easeInOutSine',
-				delay: function (el, i) { return i * 50 },
+				delay: function (el, i) { return i * 20 },
 				direction: 'normal',
 			},)
 
@@ -2016,7 +2016,7 @@
 				opacity: '1',
 				strokeDashoffset: [anime.setDashoffset, 0],
 				easing: 'easeInOutSine',
-				delay: function (el, i) { return i * 50 },
+				delay: function (el, i) { return i * 30 },
 				direction: 'normal',
 			},)
 
