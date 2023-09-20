@@ -4,6 +4,7 @@
   "description": "Mark @Sonachine69 3D Art\\Design",
   "main": "script.js",
   "dependencies": {
+    "@cloudinary/url-gen": "^1.11.2",
     "animejs": "^3.2.1",
     "tachyons": "^4.12.0"
   },
