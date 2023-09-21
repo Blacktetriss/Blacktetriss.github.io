@@ -1,39 +1,8 @@
 {
-  "name": "blacktetriss",
-  "version": "1.0.0",
-  "description": "Mark @Sonachine69 3D Art\\Design",
-  "main": "script.js",
+  "name": "Blacktetriss",
+  "packageManager": "yarn@3.6.3",
   "dependencies": {
-    "@cloudinary/url-gen": "^1.11.2",
     "animejs": "^3.2.1",
-    "tachyons": "^4.12.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Blacktetriss/Blacktetriss.github.io.git"
-  },
-  "keywords": [
-    "3DCG Designer @Sonachine69",
-    "3D Art Design",
-    "Blender",
-    "Substance 3D Painter",
-    "Houdini",
-    "MoI3D",
-    "Keyshot",
-    "3D Visualization product",
-    "3D Modeling product",
-    "Digital 3D",
-    "3D Industrial & Product Design",
-    "3D Hard Surface",
-    "3D Realism"
-  ],
-  "author": "bblacktetriss",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Blacktetriss/Blacktetriss.github.io/issues"
-  },
-  "homepage": "https://github.com/Blacktetriss/Blacktetriss.github.io#readme"
+    "tachyons": "4.12.0"
+  }
 }
