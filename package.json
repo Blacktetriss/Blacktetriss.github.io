@@ -1,8 +1,19 @@
 {
-  "name": "Blacktetriss",
-  "packageManager": "yarn@3.6.3",
-  "dependencies": {
-    "animejs": "^3.2.1",
-    "tachyons": "4.12.0"
-  }
+  "name": "blacktetriss",
+  "version": "1.0.0",
+  "description": "mark",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blacktetriss/Blacktetriss.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blacktetriss/Blacktetriss.github.io/issues"
+  },
+  "homepage": "https://github.com/Blacktetriss/Blacktetriss.github.io#readme"
 }
